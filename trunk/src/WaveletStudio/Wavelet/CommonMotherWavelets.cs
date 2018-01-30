@@ -88,5 +88,14 @@ namespace WaveletStudio.Wavelet
             }
             return MotherWaveletsCache[name];
         }
+
+        /// <summary>
+        /// Return all supported mother wavelet names
+        /// </summary>
+        /// <returns></returns>
+        public static Dictionary<string, MotherWavelet>.KeyCollection GetSupportedMotherWaveletName()
+        {
+            return MotherWaveletsCache.Keys;
+        }
     }
 }
