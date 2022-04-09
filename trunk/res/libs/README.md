@@ -16,4 +16,5 @@ NeuronDotNet is a neural network engine written in C#
 # ZedGraph
 The charting library for .NET
 * https://github.com/ZedGraph/ZedGraph
+* https://sourceforge.net/projects/zedgraph/
 * https://www.nuget.org/packages/ZedGraph
