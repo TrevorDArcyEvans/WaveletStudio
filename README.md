@@ -8,7 +8,12 @@ The documentation is now available at: https://waveletstudio.codeplex.com/docume
 # Main features
 - Discrete Wavelet Transform (DWT)
 - Inverse Discrete Wavelet Transform (IDWT)
-- Support for most common discrete wavelet (Haar, Daubechies 2 to 10, Coiflets1-5, DMeyer, Symlets 2-8)
+- Support for most common discrete wavelet
+  - Haar
+  - Daubechies 2 to 10
+  - Coiflets 1-5
+  - DMeyer
+  - Symlets 2-8
 - Make and use your own mother wavelet function
 - 8 Signal Extension methods:
   - SymmetricHalfPoint
