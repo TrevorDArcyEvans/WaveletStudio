@@ -1,6 +1,6 @@
 # Wavelet Studio
 The Wavelet Studio project is a set of tools built in C# to assist the signal processing with Wavelet Analysis.
-More information about the topic can be found in the vast literature available on the Internet. In particular I suggest the excellent The Wavelet Tutorial.
+More information about the topic can be found in the vast literature available on the Internet. In particular I suggest the excellent [The Wavelet Tutorial](https://users.rowan.edu/~polikar/WTtutorial.html).
 
 # Documentation
 The documentation is now available at: https://waveletstudio.codeplex.com/documentation
