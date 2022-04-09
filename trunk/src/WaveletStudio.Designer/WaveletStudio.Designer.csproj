@@ -471,7 +471,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
-    <None Include="icon1.ico" />
     <None Include="Resources\Images\imgxormini1.png" />
     <None Include="Resources\Images\imgwaveletmini1.png" />
     <None Include="Resources\Images\imgwavelet1.png" />
