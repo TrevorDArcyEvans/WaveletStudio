@@ -119,7 +119,7 @@
     <Compile Include="Functions\WaveMath_General.cs" />
     <Compile Include="Signal.cs" />
     <Compile Include="Wavelet\MotherWavelet.cs" />
-    <Compile Include="Wavelet\DWT.cs" />
+    <Compile Include="Wavelet\Dwt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SignalExtension.cs" />
   </ItemGroup>
