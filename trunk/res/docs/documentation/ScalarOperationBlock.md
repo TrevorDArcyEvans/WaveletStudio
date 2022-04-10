@@ -1,23 +1,24 @@
-! >[image:http://i.imgur.com/gC28gvP.png]*Block: Scalar Operation*
+# *Block: Scalar Operation*
+![](images/blocks/ScalarOperationBlock.png]
 
-{"Executes a scalar operation in a signal (sum, subtraction, multiplication and division).
-The operation is made sample-by-sample."}
+Executes a scalar operation in a signal (sum, subtraction, multiplication and division).
+The operation is made sample-by-sample.
 
-!! *Parameters:*
+## *Parameters:*
 
-*Operation:* {"Math operation to be used"}
-> Multiply - Multiply
-> Sum - Sum
-> Subtract - Subtract
-> Divide - Divide
+*Operation:* Math operation to be used
+* Multiply - Multiply
+* Sum - Sum
+* Subtract - Subtract
+* Divide - Divide
 
-*Value:* {"Scalar value"}
+*Value:* Scalar value
 
-!! *Example:*
+## *Example:*
 
-{"The following example shows an usage in C#."}
+The following example shows an usage in C#.
 
-{code:c#}
+```csharp
 var signal = new ImportFromTextBlock { Text = "1, 3, -2, 9, 4.5, -2, 4, 0" };
 var block = new ScalarOperationBlock
 {
@@ -31,8 +32,8 @@ signal.Execute();
 Console.WriteLine(block.Output[0].ToString(0, ", "));
 //Console Output:
 //2.5, 4.5, -0.5, 10.5, 6.0, -0.5, 5.5, 1.5
-{code:c#}
+```
 
 The above example generates the following set of inputs and outputs:
-[image:http://i.imgur.com/HE2eGMN.png]
+![](images/inoutgraphs/ScalarOperationBlock.png]
 

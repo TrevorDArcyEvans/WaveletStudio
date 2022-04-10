@@ -1,17 +1,17 @@
-! *Block: Ramp*
+# *Block: Ramp*
 
-{"Generates a custom function"}
+Generates a custom function
 
-!! *Parameters:*
+## *Parameters:*
 
-*Start:* {"Start of the signal in time"}
+*Start:* Start of the signal in time
 
-*Finish:* {"Finish of the signal in time"}
+*Finish:* Finish of the signal in time
 
-*SamplingRate:* {"Sampling rate used on sampling"}
+*SamplingRate:* Sampling rate used on sampling
 
-*FunctionText:* {"Text of the function"}
+*FunctionText:* Text of the function
 
-*IgnoreLastSample:* {"Defines it the last sample will be included in signal"}
+*IgnoreLastSample:* Defines it the last sample will be included in signal
 
 

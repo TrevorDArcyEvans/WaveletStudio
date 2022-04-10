@@ -1,28 +1,29 @@
-! >[image:http://i.imgur.com/ta1Fi8v.png]*Block: IDWT*
+# *Block: IDWT*
+![](images/blocks/IDWTBlock.png]
 
-{"The IDWT block reconstructs a signal using the specified wavelet coefficients."}
+The IDWT block reconstructs a signal using the specified wavelet coefficients.
 
-!! *Parameters:*
+## *Parameters:*
 
-*WaveletName:* {"Wavelet function to be used"}
+*WaveletName:* Wavelet function to be used
 
-*Level:* {"Number of levels"}
+*Level:* Number of levels
 
-!! *Inputs:*
+## *Inputs:*
 
 This block has only one output: the reconstructed signal.
 
-!! *Outputs:*
+## *Outputs:*
 
 This block has two inputs:
 0 – Aproximation Coefficients of decomposition
 1 – Details coefficients of decomposition
 
-!! *Example:*
+## *Example:*
 
-{"The following example shows an usage in C#."}
+The following example shows an usage in C#.
 
-{code:c#}
+```csharp
 var approximation = new ImportFromTextBlock { Text = "0.0, 0.0, 1.4, 1.4, 0.0, 0.0, 1.4, 1.4, 0.0, 0.0, 1.5, 1.3, 0.0, 0.0, 1.4, 1.4" };
 var details = new ImportFromTextBlock { Text = "0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.1, -0.1, 0.0, 0.0, 0.0, 0.0" };
 var block = new IDWTBlock
@@ -40,8 +41,8 @@ Console.WriteLine(block.OutputNodes[0].Object.ToString(1));
 
 //Console Output:
 //0.0 0.0 0.0 0.0 1.0 1.0 1.0 1.0 0.0 0.0 0.0 0.0 1.0 1.0 1.0 1.0 0.0 0.0 0.0 0.0 1.0 1.1 0.8 1.0 0.0 0.0 0.0 0.0 1.0 1.0 1.0 0.0
-{code:c#}
+```
 
 The above example generates the following set of inputs and outputs:
-[image:http://i.imgur.com/53Dc5F8.png]
+![](images/inoutgraphs/IDWTBlock.png]
 

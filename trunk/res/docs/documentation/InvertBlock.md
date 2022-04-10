@@ -1,27 +1,28 @@
-! >[image:http://i.imgur.com/7PhV0G4.png]*Block: Invert*
+# *Block: Invert*
+![](images/blocks/InvertBlock.png]
 
-{"Inverts a signal in time.
+Inverts a signal in time.
 For example, if we have a signal with 8 samples like this one:
-"}
-{code:c#}
+
+```csharp
 2, 3, -4, 8, 7, 1, 2, -3
-{code:c#}
-{"
+```csharp
+
 
 the block will output a new signal with the folowing samples:
-"}
-{code:c#}
+
+```csharp
 -3, 2, 1, 7, 8, -4, 3, 2
-{code:c#}
-{"
+```
 
-This block has no inputs."}
 
-!! *Example:*
+This block has no inputs.
 
-{"The following example shows an usage in C#."}
+## *Example:*
 
-{code:c#}
+The following example shows an usage in C#.
+
+```csharp
 var signal = new ImportFromTextBlock { Text = "2, 3, -4, 8, 7, 1, 2, -3" };
 var block = new InvertBlock();
 signal.ConnectTo(block);
@@ -29,8 +30,8 @@ signal.Execute();
 
 Console.WriteLine(block.Output[0].ToString(0));
 //Output: -3 2 1 7 8 -4 3 2
-{code:c#}
+```
 
 The above example generates the following set of inputs and outputs:
-[image:http://i.imgur.com/nXdS5DB.png]
+![](images/inoutgraphs/InvertBlock.png]
 

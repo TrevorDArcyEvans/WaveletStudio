@@ -1,6 +1,7 @@
-! >[image:http://i.imgur.com/NHAXyQY.png]*Block: Generate Signal*
+# *Block: Generate Signal*
+![](images/blocks/GenerateSignalBlock.png]
 
-{"Generates a signal based on one of the following templates:
+Generates a signal based on one of the following templates:
 
 Sine     :=  y(x) = A * sin(2 * PI * t) + D
 Cosine   :=  y(x) = A * cos(2 * PI * t) + D
@@ -15,31 +16,31 @@ t := f*x+φ
 f := Frequency
 φ := Phase
 
-This block has no inputs."}
+This block has no inputs.
 
-!! *Parameters:*
+## *Parameters:*
 
-*Amplitude:* {"Amplitude of the signal. Default value is 1."}
+*Amplitude:* Amplitude of the signal. Default value is 1.
 
-*Frequency:* {"Frequency of the signal in Hz. Default value is 60."}
+*Frequency:* Frequency of the signal in Hz. Default value is 60.
 
-*Phase:* {"The initial angle of function at its origin. Default value is 0."}
+*Phase:* The initial angle of function at its origin. Default value is 0.
 
-*Offset:* {"Distance from the origin. Default value is 0."}
+*Offset:* Distance from the origin. Default value is 0.
 
-*Start:* {"Start of the signal in time. Default value is 0."}
+*Start:* Start of the signal in time. Default value is 0.
 
-*Finish:* {"Finish of the signal in time. Default value is 1."}
+*Finish:* Finish of the signal in time. Default value is 1.
 
-*SamplingRate:* {"Sampling rate used on sampling. Default value is 32768 (32KHz)."}
+*SamplingRate:* Sampling rate used on sampling. Default value is 32768 (32KHz).
 
-*IgnoreLastSample:* {"If true, the last sample is not included in the created signal. Default value is false."}
+*IgnoreLastSample:* If true, the last sample is not included in the created signal. Default value is false.
 
-!! *Example:*
+## *Example:*
 
-{"The following example shows an usage in C#."}
+The following example shows an usage in C#.
 
-{code:c#}
+```csharp
 var block = new GenerateSignalBlock
 {
     TemplateName = "Sine",
@@ -55,8 +56,8 @@ var block = new GenerateSignalBlock
 block.Execute();
 
 Console.WriteLine(block.OutputNodes[0].Object.ToString(1));
-{code:c#}
+```
 
 The above example generates the following set of inputs and outputs:
-[image:http://i.imgur.com/UXmuIau.png]
+![](images/inoutgraphs/GenerateSignalBlock.png]
 

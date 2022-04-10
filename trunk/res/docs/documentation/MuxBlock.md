@@ -1,19 +1,20 @@
-! >[image:http://i.imgur.com/d3hUAji.png]*Block: Mux*
+# *Block: Mux*
+![](images/blocks/MuxBlock.png]
 
-{"Combine several input signals into vector.
-For example, if we connect 3 blocks to the MuxBlock, it will output a single signal list, with 3 items."}
+Combine several input signals into vector.
+For example, if we connect 3 blocks to the MuxBlock, it will output a single signal list, with 3 items.
 
-!! *Parameters:*
+## *Parameters:*
 
-*InputCount:* {"Number of inputs"}
+*InputCount:* Number of inputs
 
-*SignalNames:* {"Signal names used in the output (optional, one per line)"}
+*SignalNames:* Signal names used in the output (optional, one per line)
 
-!! *Example:*
+## *Example:*
 
-{"The following example shows an usage in C#."}
+The following example shows an usage in C#.
 
-{code:c#}
+```csharp
 var signal1 = new ImportFromTextBlock { Text = "1, 7, 3, 1" };
 var signal2 = new ImportFromTextBlock { Text = "5, 7, 2, 8" };
 var signal3 = new ImportFromTextBlock { Text = "9, 8, 4, 3" };
@@ -35,8 +36,8 @@ Console.WriteLine(block.Output[0, 2].ToString(0));
 //1 7 3 1
 //5 7 2 8
 //9 8 4 3
-{code:c#}
+```
 
 The above example generates the following set of inputs and outputs:
-[image:http://i.imgur.com/Ds4ezaH.png]
+![](images/inoutgraphs/MuxBlock.png]
 

@@ -1,16 +1,17 @@
-! >[image:http://i.imgur.com/3D9pbJc.png]*Block: Shift*
+# *Block: Shift*
+![](images/blocks/ShiftBlock.png]
 
-{"Shifts a signal in time modifying the Start property."}
+Shifts a signal in time modifying the Start property.
 
-!! *Parameters:*
+## *Parameters:*
 
-*Delay:* {"Delay in time"}
+*Delay:* Delay in time
 
-!! *Example:*
+## *Example:*
 
-{"The following example shows an usage in C#."}
+The following example shows an usage in C#.
 
-{code:c#}
+```csharp
 var block = new ShiftBlock { Delay = 1.7 };
 var signal = new ImportFromTextBlock { Text = "0, 1, -1, 3, 0", SignalStart = 1 };
 signal.ConnectTo(block);
@@ -18,8 +19,8 @@ signal.Execute();
 
 Console.WriteLine(block.Output[0].Start);
 //Output: 2.7
-{code:c#}
+```
 
 The above example generates the following set of inputs and outputs:
-[image:http://i.imgur.com/CZ9mozs.png]
+![](images/inoutgraphs/ShiftBlock.png]
 

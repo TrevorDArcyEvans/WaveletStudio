@@ -1,16 +1,17 @@
-! >[image:http://i.imgur.com/Jv0LDXT.png]*Block: Downsample*
+# *Block: Downsample*
+![](images/blocks/DownSampleBlock.png]
 
-{"Decreases the sampling rate of the input by deleting samples."}
+Decreases the sampling rate of the input by deleting samples.
 
-!! *Parameters:*
+## *Parameters:*
 
-*Factor:* {"Downsample factor. Default is 2."}
+*Factor:* Downsample factor. Default is 2.
 
-!! *Example:*
+## *Example:*
 
-{"The following example shows an usage in C#."}
+The following example shows an usage in C#.
 
-{code:c#}
+```csharp
 var signal = new ImportFromTextBlock { Text = "0, 1, -1, 5, 4, -1, 0" };
 var block = new DownSampleBlock();
 
@@ -20,8 +21,8 @@ signal.Execute();
 Console.WriteLine(block.OutputNodes[0].Object.ToString(0));
 //Console Output:
 //0 -1 4 0
-{code:c#}
+```
 
 The above example generates the following set of inputs and outputs:
-[image:http://i.imgur.com/Rd79evq.png]
+![](images/inoutgraphs/DownSampleBlock.png]
 

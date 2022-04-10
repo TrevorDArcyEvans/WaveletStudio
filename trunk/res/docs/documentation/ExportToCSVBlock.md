@@ -1,24 +1,25 @@
-! >[image:http://i.imgur.com/bA6qk6M.png]*Block: Export CSV*
+# *Block: Export CSV*
+![](images/blocks/ExportToCSVBlock.png]
 
-{"Exports a single signal or a signal list to a CSV file.
+Exports a single signal or a signal list to a CSV file.
 A CSV (comma-separated values) is a text file with the data (samples) separated with commas or another character.
-This block has no outputs."}
+This block has no outputs.
 
-!! *Parameters:*
+## *Parameters:*
 
-*FilePath:* {"The path to the file. You can use a relative (ex.: ../file.csv) or absolute path (ex.: C:\file.csv). Default value is “output.csv”."}
+*FilePath:* The path to the file. You can use a relative (ex.: ../file.csv) or absolute path (ex.: C:\file.csv). Default value is “output.csv”.
 
-*ColumnSeparator:* {"The string to be used to split the data. Default value is “,”."}
+*ColumnSeparator:* The string to be used to split the data. Default value is “,”.
 
-*DecimalPlaces:* {"The number of decimal places to be used in the output file. Default value is 3."}
+*DecimalPlaces:* The number of decimal places to be used in the output file. Default value is 3.
 
-*IncludeSignalNameInFirstColumn:* {"Include signal name in first column."}
+*IncludeSignalNameInFirstColumn:* Include signal name in first column.
 
-!! *Example:*
+## *Example:*
 
-{"The following example shows an usage in C#."}
+The following example shows an usage in C#.
 
-{code:c#}
+```csharp
 var signal = new ImportFromTextBlock { Text = "1, 2, 3, 4, -1" };
 var block = new ExportToCSVBlock
 {
@@ -32,6 +33,6 @@ signal.Execute();
 
 //Ouput in file1.csv
 //Line 1;1.0;2.0;3.0;4.0;-1.0
-{code:c#}
+```
 
 

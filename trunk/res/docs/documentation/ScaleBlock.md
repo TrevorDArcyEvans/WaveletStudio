@@ -1,18 +1,19 @@
-! >[image:http://i.imgur.com/quStjHO.png]*Block: Scale*
+# *Block: Scale*
+![](images/blocks/ScaleBlock.png]
 
-{"Dilate or contract a signal in time and/or amplitude."}
+Dilate or contract a signal in time and/or amplitude.
 
-!! *Parameters:*
+## *Parameters:*
 
-*TimeScalingFactor:* {"Factor to be used in time scaling. If the value is setted to 1, no scaling will be applied to the time variable."}
+*TimeScalingFactor:* Factor to be used in time scaling. If the value is setted to 1, no scaling will be applied to the time variable.
 
-*AmplitudeScalingFactor:* {"Factor to be used in amplitude scaling. If the value is setted to 1, no scaling will be applied to the amplitude variable."}
+*AmplitudeScalingFactor:* Factor to be used in amplitude scaling. If the value is setted to 1, no scaling will be applied to the amplitude variable.
 
-!! *Example:*
+## *Example:*
 
-{"The following example shows an usage in C#."}
+The following example shows an usage in C#.
 
-{code:c#}
+```csharp
 var signal = new ImportFromTextBlock { Text = "1, 3, -2, 9, 4.5, -2, 4, 0" };
 var block = new ScaleBlock
 {
@@ -24,8 +25,8 @@ signal.ConnectTo(block);
 signal.Execute();
 
 Console.WriteLine(block.Output[0].ToString(0, ", "));
-{code:c#}
+```
 
 The above example generates the following set of inputs and outputs:
-[image:http://i.imgur.com/Loo4dme.png]
+![](images/inoutgraphs/ScaleBlock.png]
 
