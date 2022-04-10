@@ -35,3 +35,27 @@ The documentation is now available [here](trunk/res/docs/documentation/BlockList
 - Estimate location of disturbance based on the normal distribution
 - Signal generation of Sine, Sawtooth, Square and Triangle waves
 - Application to demonstrate the features
+
+# Prerequisites
+* .NET Core 6
+* Windows
+* git
+
+## Recommended
+* Visual Studio 2020
+* JetBrains Rider
+
+# Getting started
+```bash
+$ git clone https://github.com/TrevorDArcyEvans/WaveletStudio.git
+$ cd WaveletStudio/trunk/src
+$ dotnet restore
+$ dotnet build
+
+# run tests
+$ dotnet test
+
+# run WaveletStudio Designer
+$ dotnet run --project WaveletStudio.Designer/WaveletStudio.Designer.csproj
+```
+
