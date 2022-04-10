@@ -1,0 +1,83 @@
+! *Block List*
+
+!! <[image:http://i.imgur.com/fzFnv6Z.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Absolute Value] *[url:Absolute Value|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Absolute Value]*
+Outputs the absolute value of a signal.
+
+!! <[image:http://i.imgur.com/kUEo44z.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Convolution] *[url:Convolution|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Convolution]*
+The Convolution block convolves the signal of the first input with the signal of second input (filter).
+
+!! <[image:http://i.imgur.com/pKW0rXZ.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Demux] *[url:Demux|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Demux]*
+Extracts the components of an input signal and outputs the components as separate signals.
+
+!! <[image:http://i.imgur.com/Jv0LDXT.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Downsample] *[url:Downsample|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Downsample]*
+Decreases the sampling rate of the input by deleting samples.
+
+!! <[image:http://i.imgur.com/eB1KiuV.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20DWT] *[url:DWT|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20DWT]*
+The DWT block decomposes a signal using the specified wavelet function.
+
+!! <[image:http://i.imgur.com/bA6qk6M.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Export CSV] *[url:Export CSV|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Export CSV]*
+Exports a single signal or a signal list to a CSV file.
+
+!! <[image:http://i.imgur.com/tpcUlFu.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20FFT] *[url:FFT|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20FFT]*
+Executes the Forward Fast Fourier Transform (FFT) using the Managed FFT function.
+
+!! <[image:http://i.imgur.com/NHAXyQY.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Generate Signal] *[url:Generate Signal|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Generate Signal]*
+Generates a signal based on one of the following templates:
+
+!! <[image:http://i.imgur.com/ta1Fi8v.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20IDWT] *[url:IDWT|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20IDWT]*
+The IDWT block reconstructs a signal using the specified wavelet coefficients.
+
+!! <[image:http://i.imgur.com/AeAyClJ.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20IFFT] *[url:IFFT|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20IFFT]*
+Executes the Backward Fast Fourier Transform (FFT) using the Managed FFT function.
+
+!! <[image:http://i.imgur.com/ApwmTG2.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Import CSV] *[url:Import CSV|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Import CSV]*
+Generates a signal based on a CSV file.
+
+!! <[image:http://i.imgur.com/Hr0LdvL.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Import from Text] *[url:Import from Text|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Import from Text]*
+Generates a signal based on a text.
+
+!! <[image:http://i.imgur.com/qxPtNRn.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Interpolation] *[url:Interpolation|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Interpolation]*
+Increases the sampling rate of a signal using linear, nearest, cubic, Newton’s or polynomial interpolation methods.
+
+!! <[image:http://i.imgur.com/7PhV0G4.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Invert] *[url:Invert|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Invert]*
+Inverts a signal in time.
+
+!! <[image:http://i.imgur.com/UHylTMu.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Logic Port] *[url:Logic Port|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Logic Port]*
+Point-by-point logic operators (AND, OR, NAND, NOR, XOR, NXOR, NOT).
+
+!! <[image:http://i.imgur.com/d3hUAji.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Mux] *[url:Mux|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Mux]*
+Combine several input signals into vector.
+
+!! <[image:http://i.imgur.com/uC6ViMz.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Operation] *[url:Operation|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Operation]*
+Sum, subtract, multiply or divide two or more signals, sample-by-sample.
+
+!! <[image:http://i.imgur.com/o0NVryg.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Ramp Function] *[url:Ramp Function|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Ramp Function]*
+Generates a Ramp signal.
+
+!! <[image:http://i.imgur.com/yJvRKtq.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Relational Operation] *[url:Relational Operation|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Relational Operation]*
+Conversion to boolean based on >, <, >=, <=, <>, = an static value, the previous sample or the next sample.
+
+!! <[image:http://i.imgur.com/LC6BDlw.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Repeat] *[url:Repeat|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Repeat]*
+Repeats samples of a signal.
+
+!! <[image:http://i.imgur.com/gC28gvP.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Scalar Operation] *[url:Scalar Operation|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Scalar Operation]*
+Executes a scalar operation in a signal (sum, subtraction, multiplication and division).
+
+!! <[image:http://i.imgur.com/quStjHO.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Scale] *[url:Scale|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Scale]*
+Dilate or contract a signal in time and/or amplitude.
+
+!! <[image:http://i.imgur.com/3D9pbJc.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Shift] *[url:Shift|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Shift]*
+Shifts a signal in time modifying the Start property.
+
+!! <[image:http://i.imgur.com/WDWxwms.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Signal Extension] *[url:Signal Extension|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Signal Extension]*
+Extends a signal using the specified mode.
+
+!! <[image:http://i.imgur.com/V34q36D.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Switch] *[url:Switch|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Switch]*
+Switch output between first input (A) and third input (B) based on value of second input or the threshold value, using the specified switch criteria.
+
+!! <[image:http://i.imgur.com/fVvqcwZ.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Unique] *[url:Unique|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Unique]*
+Removes duplicated samples in a signal.
+
+!! <[image:http://i.imgur.com/zOOdBZS.png|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Upsample] *[url:Upsample|https://waveletstudio.codeplex.com/wikipage?title=Block%3a%20Upsample]*
+Resample input at higher rate by inserting zeros.
+
