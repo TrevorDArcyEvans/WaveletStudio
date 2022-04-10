@@ -3,7 +3,7 @@ The Wavelet Studio project is a set of tools built in C# to assist the signal pr
 More information about the topic can be found in the vast literature available on the Internet. In particular I suggest the excellent [The Wavelet Tutorial](https://users.rowan.edu/~polikar/WTtutorial.html).
 
 # Documentation
-The documentation is now available at: https://waveletstudio.codeplex.com/documentation
+The documentation is now available [here](trunk/res/docs/documentation/BlockList.md)
 
 # Main features
 - Discrete Wavelet Transform (DWT)
