@@ -1,17 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B84405B3-006D-456C-ABEC-A62E971EB68F}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{441F1F6E-719C-439F-86D7-0E3A991500AF}"
-	ProjectSection(SolutionItems) = preProject
-		Local.testsettings = Local.testsettings
-		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
-		WaveletStudio.vsmdi = WaveletStudio.vsmdi
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveletStudio", "WaveletStudio\WaveletStudio.csproj", "{003D0672-355F-416B-9E88-DC95F0762329}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveletStudio.Tests", "Tests\WaveletStudio.Tests\WaveletStudio.Tests.csproj", "{A182FEB7-2FB2-448F-A62C-751F73B8E63B}"
@@ -62,9 +53,8 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{441F1F6E-719C-439F-86D7-0E3A991500AF} = {B84405B3-006D-456C-ABEC-A62E971EB68F}
-		{A182FEB7-2FB2-448F-A62C-751F73B8E63B} = {B84405B3-006D-456C-ABEC-A62E971EB68F}
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8D3D351-38B3-441F-877A-1B236D6B8DED}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = WaveletStudio.vsmdi
