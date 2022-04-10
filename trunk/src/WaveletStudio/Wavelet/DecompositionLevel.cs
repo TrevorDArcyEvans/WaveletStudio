@@ -36,7 +36,7 @@ namespace WaveletStudio.Wavelet
         public double[] Approximation { get; set; }
 
         /// <summary>
-        /// Detais coefficients
+        /// Details coefficients
         /// </summary>
         public double[] Details { get; set; }
 
@@ -89,10 +89,10 @@ namespace WaveletStudio.Wavelet
         /// <summary>
         /// Estimates the disturbances in the signal based on the normal distribution of the details coefficients
         /// </summary>
-        /// <param name="threshold">The higher the threshold, the higher the tolerance in flutuations on energy of the details</param>
-        /// <param name="minimunDistance">Minimun distance between disturbances to consider a new one</param>
+        /// <param name="threshold">The higher the threshold, the higher the tolerance in fluctuations on energy of the details</param>
+        /// <param name="minimunDistance">Minimum distance between disturbances to consider a new one</param>
         /// <returns></returns>
-        public List<Disturbance> GetDisturbances(double threshold = 0.1, int minimunDistance = 3)
+        public List<Disturbance> GetDisturbances(double threshold = 0.1, int minimumDistance = 3)
         {
             threshold = 1 - threshold;
             var disturbances = new List<Disturbance>();
@@ -132,7 +132,7 @@ namespace WaveletStudio.Wavelet
                     start = i;
                     startIndex = samples[i].Key;
                 }
-                else if (samples[i].Key - samples[i - 1].Key >= minimunDistance || i == samples.Count - 1)
+                else if (samples[i].Key - samples[i - 1].Key >= minimumDistance || i == samples.Count - 1)
                 {
                     disturbances.Add(new Disturbance(startIndex, samples[i - 1].Key, Details.Length, Signal.Samples.Length));
                     if (i < samples.Count - 1)
@@ -146,7 +146,7 @@ namespace WaveletStudio.Wavelet
                     }
                 }
             }
-            if (disturbances.Count > 1 && (disturbances[disturbances.Count - 1].Finish - disturbances[disturbances.Count - 2].Finish) < minimunDistance)
+            if (disturbances.Count > 1 && (disturbances[disturbances.Count - 1].Finish - disturbances[disturbances.Count - 2].Finish) < minimumDistance)
             {
                 disturbances[disturbances.Count - 2] = new Disturbance(disturbances[disturbances.Count - 2].Start, disturbances[disturbances.Count - 1].Finish, Details.Length, Signal.Samples.Length);
                 disturbances.RemoveAt(disturbances.Count - 1);
