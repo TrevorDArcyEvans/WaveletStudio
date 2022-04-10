@@ -3,4 +3,45 @@
   <PropertyGroup>
     <ProjectView>ProjectFiles</ProjectView>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Forms\BlockPlot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\BlockSetupBaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\BlockSetupPlotForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\BlockSetupTextForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\DiagramForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\DiagramFormOutput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\DiagramFormProperties.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\FileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\OptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\PrintPreviewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Utils\FlatButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Utils\NoHeaderTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Utils\Separator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>

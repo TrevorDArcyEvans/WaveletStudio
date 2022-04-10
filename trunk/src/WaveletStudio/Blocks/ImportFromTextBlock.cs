@@ -84,7 +84,6 @@ namespace WaveletStudio.Blocks
         /// The text to be processed.
         /// </summary>
         [Parameter]
-        [Editor(typeof(MultilineStringEditor), typeof(UITypeEditor))]
         public string Text { get; set; }
 
         /// <summary>
